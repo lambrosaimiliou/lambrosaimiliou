@@ -1,0 +1,9 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+const token = "your Token"
+
+client.on('ready' , ()=> {
+ console.log("Is Ready Now!");
+});
+
+client.login(token);
